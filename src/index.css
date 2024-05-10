@@ -1,13 +1,18 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 10px;
+  }
+  .header {
+    font-size: 28px;
+  }
+  .todo-item {
+    padding: 10px;
+  }
+  .add-todo-form {
+    flex-direction: column;
+  }
+  .add-todo-form input[type="text"] {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
 }
